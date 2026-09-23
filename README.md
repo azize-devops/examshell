@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="examshell — 42 Exam Rank 02 simülatörü" width="100%">
+<img src="examshell/assets/banner.svg" alt="examshell — 42 Exam Rank 02 simülatörü" width="100%">
 
 <br>
 
