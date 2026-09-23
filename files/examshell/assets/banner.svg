@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="examshell — 42 Exam Rank 02 simülatörü">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101a22"/>
+      <stop offset="55%" stop-color="#132029"/>
+      <stop offset="100%" stop-color="#0d151b"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00babc"/>
+      <stop offset="100%" stop-color="#6fe3d2"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <!-- faint grid -->
+    <g stroke="#1d2f3b" stroke-width="1">
+      <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
+      <path d="M60 0V300M180 0V300M300 0V300M420 0V300M540 0V300M660 0V300M780 0V300M900 0V300M1020 0V300M1140 0V300"/>
+    </g>
+    <!-- glow -->
+    <circle cx="1060" cy="60" r="190" fill="#00babc" opacity="0.07"/>
+
+    <!-- window chrome -->
+    <rect x="56" y="48" width="620" height="204" rx="10" fill="#0b1217" stroke="#24333f"/>
+    <rect x="56" y="48" width="620" height="34" rx="10" fill="#16222b"/>
+    <rect x="56" y="72" width="620" height="10" fill="#16222b"/>
+    <circle cx="80" cy="65" r="6" fill="#e5484d"/><circle cx="100" cy="65" r="6" fill="#e8a33d"/><circle cx="120" cy="65" r="6" fill="#00babc"/>
+    <text x="146" y="70" font-family="ui-monospace,'JetBrains Mono',Menlo,monospace" font-size="13" fill="#7f93a4">student@exam: ~/rendu/first_word</text>
+
+    <g font-family="ui-monospace,'JetBrains Mono',Menlo,monospace" font-size="15">
+      <text x="78" y="112" fill="#00babc">examshell&gt;<tspan fill="#e6edf3" xml:space="preserve"> grademe</tspan></text>
+      <text x="78" y="138" fill="#7f93a4">waiting.....</text>
+      <text x="78" y="172" fill="#00babc" font-weight="700">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; SUCCESS &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</text>
+      <text x="78" y="198" fill="#9fb3c2">+25 points — grade: 100/100</text>
+      <text x="78" y="230" fill="#00babc">examshell&gt;<tspan fill="#e6edf3" xml:space="preserve"> </tspan><tspan fill="#00babc">▋</tspan></text>
+    </g>
+
+    <!-- title block -->
+    <g transform="translate(724,86)">
+      <rect x="0" y="-32" width="46" height="46" rx="8" fill="#e6edf3"/>
+      <text x="23" y="-1" text-anchor="middle" font-family="ui-monospace,'JetBrains Mono',Menlo,monospace" font-size="22" font-weight="700" fill="#101a22">42</text>
+      <text x="62" y="4" font-family="ui-monospace,'JetBrains Mono',Menlo,monospace" font-size="38" font-weight="700" fill="url(#teal)">examshell</text>
+      <text x="1" y="52" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="600" fill="#e6edf3">Exam Rank 02 simülatörü</text>
+      <text x="1" y="86" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#8ba0b0">56 soru · gerçek gcc · git push · Moulinette trace'leri</text>
+      <g transform="translate(0,108)" font-family="ui-monospace,'JetBrains Mono',Menlo,monospace" font-size="13">
+        <rect x="0" y="-16" width="86" height="26" rx="13" fill="#00babc" opacity="0.16" stroke="#00babc" stroke-opacity="0.5"/>
+        <text x="43" y="2" text-anchor="middle" fill="#6fe3d2">Level 1</text>
+        <rect x="96" y="-16" width="86" height="26" rx="13" fill="#00babc" opacity="0.16" stroke="#00babc" stroke-opacity="0.5"/>
+        <text x="139" y="2" text-anchor="middle" fill="#6fe3d2">Level 2</text>
+        <rect x="192" y="-16" width="86" height="26" rx="13" fill="#00babc" opacity="0.16" stroke="#00babc" stroke-opacity="0.5"/>
+        <text x="235" y="2" text-anchor="middle" fill="#6fe3d2">Level 3</text>
+        <rect x="288" y="-16" width="86" height="26" rx="13" fill="#00babc" opacity="0.16" stroke="#00babc" stroke-opacity="0.5"/>
+        <text x="331" y="2" text-anchor="middle" fill="#6fe3d2">Level 4</text>
+      </g>
+    </g>
+    <rect x="0" y="296" width="1200" height="4" fill="url(#teal)"/>
+  </g>
+</svg>
