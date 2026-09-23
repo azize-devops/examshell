@@ -43,7 +43,7 @@ Gerçek `gcc`, gerçek `git push`, gerçek Moulinette trace'leri.
 <br>
 
 <div align="center">
-<img src="assets/exam-success.png" alt="Web sürümü — başarılı değerlendirme" width="90%">
+<img src="files/examshell/assets/exam-success.png" alt="Web sürümü — başarılı değerlendirme" width="90%">
 <br><em>Web sürümü: solda subject, ortada editör, altta examshell terminali.</em>
 </div>
 
@@ -222,7 +222,7 @@ Oturum tarayıcıda saklanır; sayfayı yenilersen "Kaldığın yerden devam et"
 </details>
 
 <div align="center">
-<img src="assets/exam-failure.png" alt="Web sürümü — başarısız değerlendirme ve trace" width="90%">
+<img src="files/examshell/assets/exam-failure.png" alt="Web sürümü — başarısız değerlendirme ve trace" width="90%">
 <br><em>Başarısızlıkta trace: hangi test, hangi komut, beklenen ve alınan çıktı.</em>
 </div>
 
